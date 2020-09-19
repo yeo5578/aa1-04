@@ -8,7 +8,7 @@ app.get("/",function(req,res) {
 });
 
 app.get("/hello",function(req,res) {
-    res.send("Hello aa02");
+    res.send("Hello aa04");
 });
 
 app.get("/comsi",function(req,res) {
@@ -16,7 +16,7 @@ app.get("/comsi",function(req,res) {
 });
 
 app.get("/aa02",function(req,res) {
-    res.send("Hello aa02, Comsi! My first express server!!!");
+    res.send("Hello aa04, Comsi! My first express server!!!");
 });
 
 app.get("/naver",function(req,res) {
