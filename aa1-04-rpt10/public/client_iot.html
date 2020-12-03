@@ -7,7 +7,7 @@
 <body>
 	<h1>Data visualization by AA1303</h1>
 	<hr>
-	<h2>Time series by AA1303</h2>
+	<h2>Time series by AA0104</h2>
 
 	<!-- Plotly chart will be drawn inside this DIV -->
 	<div id="myDiv" style="width: 700px;height: 500px"></div>
@@ -15,7 +15,7 @@
 	<script>
 		<!-- JAVASCRIPT CODE GOES HERE -->
 
-		Plotly.d3.csv("http://localhost:3030/data/AA1303_s1000.csv", function(err, rows){
+		Plotly.d3.csv("http://localhost:3030/data/AA0104_s1000.csv", function(err, rows){
 
 			function unpack(rows, key) {
 				return rows.map(function(row) { return row[key]; });
